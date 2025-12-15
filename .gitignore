@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- Custom Ignores ---
+
+# Chặn folder rules (như bạn yêu cầu)
+.rules/
+docs/
+
+# Chặn file cấu hình VS Code cá nhân (nếu muốn)
+.vscode/
+
+# Chặn các file rác hệ điều hành
+.DS_Store
+Thumbs.db
